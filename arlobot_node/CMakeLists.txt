@@ -33,6 +33,7 @@ include_directories(
 )
 
 add_library(${PROJECT_NAME}_lib
+  "src/dynamixel_sdk_wrapper.cpp"
   "src/arlobot.cpp"
 )
 
